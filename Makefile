@@ -3,8 +3,8 @@
 # Default values are provided if not overridden
 
 PYTHON ?= python3
-PROMPT_TYPE ?= primary
-NUM_ROWS ?= 1000
+PROMPT_TYPE ?= satellite
+NUM_ROWS ?= 20000000
 NUM_CLUSTERS ?= 10
 
 .PHONY: run

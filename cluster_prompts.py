@@ -26,9 +26,15 @@ def main():
     print(f"Processing {num_rows} rows out of {total_rows} available.")
 
     df = pd.read_csv(file_name, nrows=num_rows)
+
+    # Further strict filtering to remove overly common and short rows
+    common_phrases = ["only memories remain", "from the coast of north oregon"]
+    df = df[~df[col_name].str.lower().isin(common_phrases)]
+    df = df[df[col_name].str.split().str.len() > 4]
+
     texts = df[col_name].astype(str).tolist()
 
-    vectorizer = TfidfVectorizer(stop_words="english")
+    vectorizer = TfidfVectorizer(stop_words='english', max_df=0.3, min_df=5, ngram_range=(1,2))
     X = vectorizer.fit_transform(texts)
 
     k = args.num_clusters
