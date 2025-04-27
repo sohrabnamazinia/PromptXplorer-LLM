@@ -3,7 +3,7 @@ import gensim.corpora as corpora
 from gensim.models import LdaModel
 
 use_loaded_model = False
-topics_count = 3
+topics_count = 2
 max_rows = 1000
 # the prompts indices that result is gonna be printed for them
 alpha, beta = 0, 5
