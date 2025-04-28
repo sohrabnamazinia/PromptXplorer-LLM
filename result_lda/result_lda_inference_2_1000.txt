@@ -1,0 +1,33 @@
+Loading model and dictionary...
+Loading CSV...
+Tokenizing and cleaning prompts...
+
+Sample prompt topic distributions:
+
+Prompt 0: portrait female robot made code
+Topic distribution (topic_id, probability):
+  Topic 0: 0.9840
+  Topic 1: 0.0160
+
+Prompt 1: portrait female robot made cloud images grateful creator
+Topic distribution (topic_id, probability):
+  Topic 0: 0.9898
+  Topic 1: 0.0102
+
+Prompt 2: memories remain
+Topic distribution (topic_id, probability):
+  Topic 0: 0.9618
+  Topic 1: 0.0382
+
+Prompt 3: dream swimming pool nobody
+Topic distribution (topic_id, probability):
+  Topic 0: 0.9801
+  Topic 1: 0.0199
+
+Prompt 4: dog weights
+Topic distribution (topic_id, probability):
+  Topic 0: 0.9618
+  Topic 1: 0.0382
+
+Calculating and saving CSV files...
+Done.

@@ -12,6 +12,5 @@ NUM_CLUSTERS ?= 10
 run:
 	$(PYTHON) cluster_prompts.py --prompt_type $(PROMPT_TYPE) --num_rows $(NUM_ROWS) --num_clusters $(NUM_CLUSTERS)
 
-
 clean:
-	rm -f id2word.dict lda_model.model lda_model.model.expElogbeta.npy lda_model.model.id2word lda_model.model.state lda_topics.txt
+	rm -f model/* result_lda/*

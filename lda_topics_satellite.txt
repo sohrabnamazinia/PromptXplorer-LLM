@@ -1,0 +1,2 @@
+Topic 0: 0.070*"detailed" + 0.051*"highly" + 0.040*"wallpaper" + 0.030*"art" + 0.026*"archdaily" + 0.019*"beksinski" + 0.019*"zdzislaw" + 0.018*"fantasy" + 0.017*"intricate" + 0.016*"light"
+Topic 1: 0.047*"artstation" + 0.042*"trending" + 0.024*"painting" + 0.017*"flowers" + 0.015*"nature" + 0.015*"greg" + 0.014*"digital" + 0.014*"canvas" + 0.014*"neon" + 0.013*"archdaily"
