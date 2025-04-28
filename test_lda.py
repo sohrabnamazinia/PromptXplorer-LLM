@@ -7,8 +7,8 @@ from lda import (
 import sys
 
 def run_all():
-    topics_count = 2
-    max_rows = 1000
+    topics_count = 100
+    max_rows = 500000
     alpha = 0
     beta = 5
 

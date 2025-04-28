@@ -47,6 +47,6 @@ def get_clusterized_data(topics_count, max_rows):
     print("Done.")
 
 if __name__ == "__main__":
-    topics_count = 2
-    max_rows = 1000
+    topics_count = 100
+    max_rows = 500000
     get_clusterized_data(topics_count, max_rows)
