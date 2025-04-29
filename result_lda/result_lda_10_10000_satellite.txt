@@ -1,3 +1,13 @@
+Loading CSV...
+Loaded 10000 rows.
+Extracting and cleaning satellite prompts...
+Extracted and cleaned 57911 satellite prompts.
+Creating dictionary and corpus...
+Dictionary size: 6789 unique tokens.
+Training LDA model...
+Saving model and dictionary...
+
+Discovered Topics:
 Topic 0: 0.309*"k" + 0.099*"cgsociety" + 0.058*"masterpiece" + 0.047*"atmosphere" + 0.042*"colors" + 0.020*"colours" + 0.016*"beksinski" + 0.013*"hdr" + 0.013*"muted" + 0.012*"bioluminescent"
 Topic 1: 0.132*"lighting" + 0.113*"award" + 0.109*"winning" + 0.078*"cinematic" + 0.072*"beautiful" + 0.059*"render" + 0.054*"octane" + 0.053*"hyper" + 0.039*"atmospheric" + 0.035*"volumetric"
 Topic 2: 0.129*"low" + 0.124*"full" + 0.088*"details" + 0.042*"front" + 0.033*"air" + 0.021*"floating" + 0.020*"ultra" + 0.020*"flower" + 0.019*"flying" + 0.017*"photo"
@@ -8,3 +18,6 @@ Topic 6: 0.173*"detailed" + 0.098*"sharp" + 0.097*"highly" + 0.081*"focus" + 0.0
 Topic 7: 0.060*"white" + 0.045*"street" + 0.044*"residential" + 0.043*"glass" + 0.035*"light" + 0.031*"realism" + 0.030*"black" + 0.027*"hair" + 0.024*"made" + 0.021*"energy"
 Topic 8: 0.089*"style" + 0.084*"painting" + 0.053*"dark" + 0.046*"fantasy" + 0.036*"golden" + 0.035*"creature" + 0.030*"aaron" + 0.029*"sims" + 0.029*"monster" + 0.028*"epic"
 Topic 9: 0.169*"trending" + 0.149*"artstation" + 0.129*"contest" + 0.127*"winner" + 0.056*"face" + 0.035*"unsplash" + 0.029*"perfect" + 0.023*"zbrush" + 0.023*"engine" + 0.022*"unreal"
+
+Saving topics to 'lda_topics_satellite.txt'...
+Done.

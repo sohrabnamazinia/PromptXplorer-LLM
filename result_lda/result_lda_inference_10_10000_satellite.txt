@@ -1,0 +1,73 @@
+Loading model and dictionary...
+Loading CSV...
+Extracting and cleaning satellite prompts...
+
+Sample satellite prompt topic distributions:
+
+Satellite Prompt 0: intricate details
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0271
+  Topic 1: 0.0430
+  Topic 2: 0.3449
+  Topic 3: 0.0510
+  Topic 4: 0.0238
+  Topic 5: 0.3609
+  Topic 6: 0.0442
+  Topic 7: 0.0333
+  Topic 8: 0.0437
+  Topic 9: 0.0280
+
+Satellite Prompt 1: octane render
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0271
+  Topic 1: 0.7010
+  Topic 2: 0.0159
+  Topic 3: 0.0510
+  Topic 4: 0.0238
+  Topic 5: 0.0320
+  Topic 6: 0.0442
+  Topic 7: 0.0333
+  Topic 8: 0.0437
+  Topic 9: 0.0280
+
+Satellite Prompt 2: k
+Topic distribution (topic_id, probability):
+  Topic 0: 0.5306
+  Topic 1: 0.0641
+  Topic 2: 0.0237
+  Topic 3: 0.0760
+  Topic 4: 0.0355
+  Topic 5: 0.0477
+  Topic 6: 0.0659
+  Topic 7: 0.0496
+  Topic 8: 0.0651
+  Topic 9: 0.0417
+
+Satellite Prompt 3: trending artstation
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0271
+  Topic 1: 0.0430
+  Topic 2: 0.0159
+  Topic 3: 0.0510
+  Topic 4: 0.0238
+  Topic 5: 0.0320
+  Topic 6: 0.0442
+  Topic 7: 0.0333
+  Topic 8: 0.0437
+  Topic 9: 0.6859
+
+Satellite Prompt 4: intricate details
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0271
+  Topic 1: 0.0430
+  Topic 2: 0.3449
+  Topic 3: 0.0510
+  Topic 4: 0.0238
+  Topic 5: 0.3609
+  Topic 6: 0.0442
+  Topic 7: 0.0333
+  Topic 8: 0.0437
+  Topic 9: 0.0280
+
+Calculating and saving CSV files...
+Done.

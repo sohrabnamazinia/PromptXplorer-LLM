@@ -1,0 +1,23 @@
+Loading CSV...
+Loaded 1000 rows.
+Tokenizing and cleaning prompts...
+Tokenized and cleaned 1000 prompts.
+Creating dictionary and corpus...
+Dictionary size: 1506 unique tokens.
+Training LDA model...
+Saving model and dictionary...
+
+Discovered Topics:
+Topic 0: 0.149*"portrait" + 0.058*"closeup" + 0.056*"painted" + 0.034*"scenic" + 0.034*"environment" + 0.033*"philippine" + 0.024*"anthropomorphic" + 0.020*"intense" + 0.015*"rembrandt" + 0.014*"wiley"
+Topic 1: 0.109*"man" + 0.081*"anime" + 0.034*"staff" + 0.029*"tree" + 0.024*"studio" + 0.023*"corgi" + 0.021*"ghibli" + 0.020*"puppy" + 0.017*"face" + 0.017*"s"
+Topic 2: 0.068*"character" + 0.044*"design" + 0.044*"cute" + 0.035*"tiny" + 0.034*"chinese" + 0.033*"festival" + 0.033*"tale" + 0.033*"oriental" + 0.033*"mascot" + 0.033*"toys"
+Topic 3: 0.095*"architecture" + 0.084*"building" + 0.052*"industrial" + 0.051*"urbex" + 0.049*"nature" + 0.048*"unfinished" + 0.036*"city" + 0.036*"abandoned" + 0.031*"illustration" + 0.018*"white"
+Topic 4: 0.045*"screenshot" + 0.039*"world" + 0.038*"art" + 0.038*"mount" + 0.038*"phoenix" + 0.037*"worldboss" + 0.037*"mounts" + 0.037*"warcraft" + 0.025*"feng" + 0.025*"zhu"
+Topic 5: 0.080*"hyperrealistic" + 0.062*"concept" + 0.043*"wearing" + 0.030*"cat" + 0.026*"edward" + 0.026*"hopper" + 0.025*"art" + 0.022*"painting" + 0.021*"artists" + 0.019*"planet"
+Topic 6: 0.157*"detailed" + 0.063*"highly" + 0.059*"woman" + 0.030*"god" + 0.023*"divine" + 0.023*"young" + 0.021*"magician" + 0.021*"mm" + 0.020*"cinematic" + 0.018*"blue"
+Topic 7: 0.216*"beautiful" + 0.053*"painting" + 0.040*"render" + 0.037*"hyperdetailed" + 0.024*"landscape" + 0.021*"realistic" + 0.017*"maxfield" + 0.017*"parrish" + 0.017*"cyberpunk" + 0.014*"alena"
+Topic 8: 0.046*"epic" + 0.043*"girl" + 0.036*"holding" + 0.033*"eyes" + 0.032*"tendrils" + 0.032*"shadowy" + 0.032*"void" + 0.032*"creeping" + 0.032*"piercing" + 0.025*"beast"
+Topic 9: 0.036*"medieval" + 0.025*"photo" + 0.022*"fantasy" + 0.021*"like" + 0.021*"environement" + 0.020*"brown" + 0.018*"cartoon" + 0.015*"futuristic" + 0.014*"stone" + 0.014*"alien"
+
+Saving topics to 'lda_topics.txt'...
+Done.
