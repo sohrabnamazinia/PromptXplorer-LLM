@@ -3,6 +3,55 @@ import gensim.corpora as corpora
 from gensim.models import LdaModel
 import os
 import sys
+from langchain_openai import ChatOpenAI
+
+def generate_topic_description(words_weights):
+    # Initialize LLM inside the function
+    llm = ChatOpenAI(
+        model="gpt-4.1",
+        temperature=0.2,
+        max_tokens=30,
+    )
+
+    prompt = (
+        "Given the following words with their relative importance in a topic:\n\n"
+    )
+    for word, weight in words_weights:
+        prompt += f"{word}: {weight:.4f}\n"
+    prompt += (
+        "\nWrite a very short (3-7 words) description summarizing the topic, "
+        "ONLY the description itself, no explanations or extra text."
+    )
+
+    response = llm.invoke(prompt)
+    return response.content.strip()
+
+def save_cluster_description(lda_model, topics_count, max_rows, suffix=""):
+    result_folder = "result_lda"
+    os.makedirs(result_folder, exist_ok=True)
+
+    descriptions = []
+    for topic_id, topic in lda_model.show_topics(formatted=False, num_topics=topics_count, num_words=10):
+        row = [topic_id]
+        words_weights = []
+        for word, weight in topic:
+            row.extend([word, weight])
+            words_weights.append((word, weight))
+        
+        topic_summary = generate_topic_description(words_weights)
+        row.append(topic_summary)
+
+        descriptions.append(row)
+
+    columns = ["topic_id"]
+    for i in range(1, 11):
+        columns.extend([f"word_{i}", f"weight_word_{i}"])
+    columns.append("topic_description")
+
+    df_desc = pd.DataFrame(descriptions, columns=columns)
+    filename = f"{result_folder}/cluster_description_{topics_count}_{max_rows}{suffix}.csv"
+    df_desc.to_csv(filename, index=False)
+
 
 def lda_primary(topics_count, max_rows):
     csv_path = "data/processed_prompt.csv"
@@ -65,6 +114,8 @@ def lda_primary(topics_count, max_rows):
     with open(output_path, "w") as f:
         for idx, topic in topics:
             f.write(f"Topic {idx}: {topic}\n")
+
+    save_cluster_description(lda_model, topics_count, max_rows)
 
     print("Done.")
     sys.stdout.close()
@@ -135,8 +186,11 @@ def lda_satellite(topics_count, max_rows):
         for idx, topic in topics:
             f.write(f"Topic {idx}: {topic}\n")
 
+    save_cluster_description(lda_model, topics_count, max_rows, suffix="_satellite")
+
     print("Done.")
     sys.stdout.close()
+
 
 def lda_primary_inference(topics_count, max_rows, alpha, beta):
     csv_path = "data/processed_prompt.csv"

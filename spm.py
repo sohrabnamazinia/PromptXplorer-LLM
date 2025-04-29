@@ -6,9 +6,6 @@ from prefixspan import PrefixSpan
 import networkx as nx
 import pandas as pd
 
-
-
-
 def mine_sequential_rules(sequences, min_support=2, min_confidence=0.6):
     """
     sequences: list of lists of prompt-IDs
@@ -109,7 +106,10 @@ def random_walk(G, start=None, length=10):
     return path
 
 if __name__ == "__main__":
-    df = pd.read_csv("result_lda/clusterized_data_10_10000.csv")
+    topic_count = 10
+    max_rows = 10000
+    df = pd.read_csv(f"result_lda/clusterized_data_{topic_count}_{max_rows}.csv")
+
 
 # Drop the first column (index or prompt_id)
     df = df.iloc[:, 1:]
