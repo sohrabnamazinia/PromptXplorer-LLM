@@ -52,7 +52,6 @@ def save_cluster_description(lda_model, topics_count, max_rows, suffix=""):
     filename = f"{result_folder}/cluster_description_{topics_count}_{max_rows}{suffix}.csv"
     df_desc.to_csv(filename, index=False)
 
-
 def lda_primary(topics_count, max_rows):
     csv_path = "data/processed_prompt.csv"
     output_path = "lda_topics.txt"
@@ -190,7 +189,6 @@ def lda_satellite(topics_count, max_rows):
 
     print("Done.")
     sys.stdout.close()
-
 
 def lda_primary_inference(topics_count, max_rows, alpha, beta):
     csv_path = "data/processed_prompt.csv"

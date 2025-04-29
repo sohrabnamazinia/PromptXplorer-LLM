@@ -4,11 +4,12 @@ from lda import (
     lda_primary_inference,
     lda_satellite_inference,
 )
+from lda_get_clusterized_data import get_clusterized_data
 import sys
 
 def run_all():
-    topics_count = 3
-    max_rows = 1000
+    topics_count = 100
+    max_rows = 10000
     alpha = 0
     beta = 5
 
@@ -29,6 +30,9 @@ def run_all():
     print("\n=== Running Inference on Satellite Prompts ===")
     lda_satellite_inference(topics_count, max_rows, alpha, beta)
     sys.stdout = original_stdout  # restore
+
+    get_clusterized_data(topics_count, max_rows)
+    print("\n=== Generating Clusterized Data ===")
 
 if __name__ == "__main__":
     run_all()
