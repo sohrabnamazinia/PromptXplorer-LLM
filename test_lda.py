@@ -8,6 +8,7 @@ from lda_get_clusterized_data import get_clusterized_data
 import sys
 
 def run_all():
+    call_LLM = False
     topics_count = 100
     max_rows = 10000
     alpha = 0
@@ -16,11 +17,11 @@ def run_all():
     original_stdout = sys.stdout  # save original stdout
 
     print("\n=== Training LDA for Primary Prompts ===")
-    lda_primary(topics_count, max_rows)
+    lda_primary(topics_count, max_rows, call_LLM)
     sys.stdout = original_stdout  # restore
 
     print("\n=== Training LDA for Satellite Prompts ===")
-    lda_satellite(topics_count, max_rows)
+    lda_satellite(topics_count, max_rows, call_LLM)
     sys.stdout = original_stdout  # restore
 
     print("\n=== Running Inference on Primary Prompts ===")

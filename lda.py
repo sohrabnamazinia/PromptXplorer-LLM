@@ -52,7 +52,7 @@ def save_cluster_description(lda_model, topics_count, max_rows, suffix=""):
     filename = f"{result_folder}/cluster_description_{topics_count}_{max_rows}{suffix}.csv"
     df_desc.to_csv(filename, index=False)
 
-def lda_primary(topics_count, max_rows):
+def lda_primary(topics_count, max_rows, call_LLM=True):
     csv_path = "data/processed_prompt.csv"
     output_path = "lda_topics.txt"
     model_folder = "model"
@@ -114,12 +114,13 @@ def lda_primary(topics_count, max_rows):
         for idx, topic in topics:
             f.write(f"Topic {idx}: {topic}\n")
 
-    save_cluster_description(lda_model, topics_count, max_rows)
+    if call_LLM:
+        save_cluster_description(lda_model, topics_count, max_rows)
 
     print("Done.")
     sys.stdout.close()
 
-def lda_satellite(topics_count, max_rows):
+def lda_satellite(topics_count, max_rows, call_LLM=True):
     csv_path = "data/processed_prompt.csv"
     output_path = "lda_topics_satellite.txt"
     model_folder = "model"
@@ -185,7 +186,8 @@ def lda_satellite(topics_count, max_rows):
         for idx, topic in topics:
             f.write(f"Topic {idx}: {topic}\n")
 
-    save_cluster_description(lda_model, topics_count, max_rows, suffix="_satellite")
+    if call_LLM:
+        save_cluster_description(lda_model, topics_count, max_rows, suffix="_satellite")
 
     print("Done.")
     sys.stdout.close()
