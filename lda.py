@@ -167,7 +167,7 @@ def lda_satellite(topics_count, max_rows, call_LLM=True):
         random_state=42,
         update_every=1,
         chunksize=100,
-        passes=10,
+        passes=20,
         alpha='auto',
         per_word_topics=True
     )

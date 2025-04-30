@@ -1,3 +1,13 @@
+Loading CSV...
+Loaded 10000 rows.
+Tokenizing and cleaning prompts...
+Tokenized and cleaned 10000 prompts.
+Creating dictionary and corpus...
+Dictionary size: 11562 unique tokens.
+Training LDA model...
+Saving model and dictionary...
+
+Discovered Topics:
 Topic 47: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
 Topic 2: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
 Topic 36: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
@@ -18,3 +28,6 @@ Topic 15: 0.398*"art" + 0.220*"concept" + 0.089*"robot" + 0.054*"picture" + 0.01
 Topic 3: 0.548*"painting" + 0.123*"cyberpunk" + 0.064*"cyborg" + 0.038*"monster" + 0.030*"horror" + 0.021*"tall" + 0.006*"thin" + 0.000*"establishing" + 0.000*"alpine" + 0.000*"poots"
 Topic 17: 0.507*"beautiful" + 0.269*"woman" + 0.028*"planet" + 0.026*"mixed" + 0.017*"walter" + 0.014*"media" + 0.000*"establishing" + 0.000*"canon" + 0.000*"abundant" + 0.000*"artificially"
 Topic 48: 0.740*"portrait" + 0.143*"girl" + 0.000*"hooded" + 0.000*"abundant" + 0.000*"poots" + 0.000*"imogen" + 0.000*"artificially" + 0.000*"facepalm" + 0.000*"vcr" + 0.000*"helios"
+
+Saving topics to 'lda_topics.txt'...
+Done.

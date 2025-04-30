@@ -1,3 +1,13 @@
+Loading CSV...
+Loaded 10000 rows.
+Extracting and cleaning satellite prompts...
+Extracted and cleaned 57615 satellite prompts.
+Creating dictionary and corpus...
+Dictionary size: 11713 unique tokens.
+Training LDA model...
+Saving model and dictionary...
+
+Discovered Topics:
 Topic 37: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
 Topic 2: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
 Topic 17: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
@@ -18,3 +28,6 @@ Topic 41: 0.622*"fantasy" + 0.216*"wearing" + 0.000*"kurumada" + 0.000*"blackwoo
 Topic 18: 0.662*"render" + 0.081*"poster" + 0.066*"scifi" + 0.050*"futuristic" + 0.000*"kurumada" + 0.000*"bourbon" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood"
 Topic 38: 0.276*"greg" + 0.257*"rutkowski" + 0.197*"artgerm" + 0.108*"mucha" + 0.107*"alphonse" + 0.000*"kurumada" + 0.000*"masami" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"holdind"
 Topic 12: 0.635*"art" + 0.273*"digital" + 0.019*"dan" + 0.018*"mumford" + 0.013*"grey" + 0.000*"masami" + 0.000*"kurumada" + 0.000*"holdind" + 0.000*"hornak" + 0.000*"algernon"
+
+Saving topics to 'lda_topics_satellite.txt'...
+Done.

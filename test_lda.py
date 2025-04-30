@@ -9,7 +9,7 @@ import sys
 
 def run_all():
     call_LLM = False
-    topics_count = 100
+    topics_count = 50
     max_rows = 10000
     alpha = 0
     beta = 5

@@ -1,0 +1,130 @@
+Loading model and dictionary...
+Loading CSV...
+Tokenizing and cleaning prompts...
+
+Sample prompt topic distributions:
+
+Prompt 0: walter white caught trail cam
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0180
+  Topic 1: 0.1883
+  Topic 3: 0.0482
+  Topic 4: 0.0170
+  Topic 5: 0.0236
+  Topic 6: 0.0112
+  Topic 9: 0.0148
+  Topic 15: 0.0325
+  Topic 16: 0.0188
+  Topic 17: 0.2164
+  Topic 19: 0.0226
+  Topic 22: 0.0120
+  Topic 26: 0.0154
+  Topic 27: 0.0320
+  Topic 31: 0.0248
+  Topic 32: 0.0310
+  Topic 39: 0.0118
+  Topic 41: 0.0214
+  Topic 42: 0.0321
+  Topic 44: 0.0101
+  Topic 45: 0.0192
+  Topic 48: 0.0767
+  Topic 49: 0.0168
+
+Prompt 1: portrait robot mother
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0180
+  Topic 1: 0.0251
+  Topic 3: 0.0482
+  Topic 4: 0.0170
+  Topic 5: 0.0236
+  Topic 6: 0.0112
+  Topic 9: 0.0148
+  Topic 15: 0.1957
+  Topic 16: 0.0188
+  Topic 17: 0.0532
+  Topic 19: 0.0226
+  Topic 22: 0.0120
+  Topic 26: 0.0154
+  Topic 27: 0.0320
+  Topic 31: 0.0248
+  Topic 32: 0.0310
+  Topic 39: 0.0118
+  Topic 41: 0.0214
+  Topic 42: 0.0321
+  Topic 44: 0.0101
+  Topic 45: 0.0192
+  Topic 48: 0.2399
+  Topic 49: 0.0168
+
+Prompt 2: photo young woman craig davison
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0155
+  Topic 1: 0.0216
+  Topic 3: 0.0415
+  Topic 4: 0.0146
+  Topic 5: 0.0203
+  Topic 9: 0.0127
+  Topic 15: 0.0280
+  Topic 16: 0.0161
+  Topic 17: 0.1860
+  Topic 19: 0.0194
+  Topic 22: 0.0103
+  Topic 26: 0.0133
+  Topic 27: 0.0275
+  Topic 31: 0.0213
+  Topic 32: 0.1669
+  Topic 39: 0.0102
+  Topic 41: 0.1587
+  Topic 42: 0.0276
+  Topic 45: 0.0165
+  Topic 48: 0.0659
+  Topic 49: 0.0144
+
+Prompt 3: red
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0216
+  Topic 1: 0.0300
+  Topic 3: 0.0576
+  Topic 4: 0.0203
+  Topic 5: 0.0282
+  Topic 6: 0.0134
+  Topic 9: 0.2127
+  Topic 15: 0.0389
+  Topic 16: 0.0224
+  Topic 17: 0.0635
+  Topic 19: 0.0270
+  Topic 22: 0.0144
+  Topic 26: 0.0184
+  Topic 27: 0.0382
+  Topic 31: 0.0297
+  Topic 32: 0.0370
+  Topic 37: 0.0118
+  Topic 39: 0.0141
+  Topic 41: 0.0256
+  Topic 42: 0.0384
+  Topic 44: 0.0121
+  Topic 45: 0.0229
+  Topic 46: 0.0110
+  Topic 48: 0.0916
+  Topic 49: 0.0201
+
+Prompt 4: universe contained heart shaped glass hyperrealism k ultra high definition
+Topic distribution (topic_id, probability):
+  Topic 1: 0.0138
+  Topic 3: 0.0266
+  Topic 5: 0.0130
+  Topic 15: 0.0179
+  Topic 16: 0.0103
+  Topic 17: 0.0293
+  Topic 19: 0.0124
+  Topic 22: 0.5458
+  Topic 27: 0.0176
+  Topic 31: 0.0137
+  Topic 32: 0.0171
+  Topic 41: 0.0118
+  Topic 42: 0.0177
+  Topic 45: 0.1004
+  Topic 48: 0.0422
+
+Calculating and saving CSV files...
+Done.

@@ -1,0 +1,33 @@
+Loading CSV...
+Loaded 10000 rows.
+Tokenizing and cleaning prompts...
+Tokenized and cleaned 10000 prompts.
+Creating dictionary and corpus...
+Dictionary size: 11562 unique tokens.
+Training LDA model...
+Saving model and dictionary...
+
+Discovered Topics:
+Topic 25: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
+Topic 74: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
+Topic 20: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
+Topic 78: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
+Topic 18: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
+Topic 44: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
+Topic 10: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
+Topic 65: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
+Topic 60: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
+Topic 46: 0.000*"artificially" + 0.000*"explaining" + 0.000*"rov" + 0.000*"tape" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"imogen" + 0.000*"poots" + 0.000*"abundant" + 0.000*"establishing"
+Topic 29: 0.479*"wearing" + 0.287*"white" + 0.070*"playing" + 0.017*"jacket" + 0.006*"headphones" + 0.000*"explaining" + 0.000*"artificially" + 0.000*"poots" + 0.000*"establishing" + 0.000*"imogen"
+Topic 38: 0.354*"style" + 0.103*"goddess" + 0.082*"emma" + 0.065*"huge" + 0.057*"attractive" + 0.056*"haired" + 0.053*"wings" + 0.048*"comic" + 0.025*"stone" + 0.023*"vampire"
+Topic 87: 0.496*"detailed" + 0.214*"highly" + 0.087*"alien" + 0.063*"world" + 0.030*"mountain" + 0.013*"lava" + 0.001*"canyon" + 0.000*"twilight" + 0.000*"facepalm" + 0.000*"poots"
+Topic 7: 0.440*"art" + 0.244*"concept" + 0.098*"robot" + 0.060*"picture" + 0.021*"winning" + 0.020*"award" + 0.010*"arm" + 0.000*"artificially" + 0.000*"canon" + 0.000*"imogen"
+Topic 92: 0.221*"face" + 0.198*"hair" + 0.190*"young" + 0.097*"long" + 0.063*"extremely" + 0.053*"blonde" + 0.052*"dressed" + 0.010*"wavy" + 0.006*"superhero" + 0.000*"vcr"
+Topic 95: 0.416*"woman" + 0.165*"render" + 0.141*"oil" + 0.066*"hyper" + 0.043*"planet" + 0.040*"mixed" + 0.022*"media" + 0.000*"explaining" + 0.000*"canon" + 0.000*"manufactured"
+Topic 2: 0.367*"photo" + 0.257*"realistic" + 0.141*"space" + 0.039*"ultra" + 0.038*"golden" + 0.038*"deep" + 0.021*"lovecraftian" + 0.000*"vcr" + 0.000*"facepalm" + 0.000*"poots"
+Topic 76: 0.704*"beautiful" + 0.101*"landscape" + 0.045*"matte" + 0.036*"creature" + 0.016*"underwater" + 0.000*"poots" + 0.000*"hyena" + 0.000*"establishing" + 0.000*"abundant" + 0.000*"explaining"
+Topic 30: 0.570*"painting" + 0.198*"black" + 0.136*"body" + 0.008*"ultradetailed" + 0.000*"establishing" + 0.000*"explaining" + 0.000*"abundant" + 0.000*"imogen" + 0.000*"poots" + 0.000*"facepalm"
+Topic 31: 0.837*"portrait" + 0.031*"screenshot" + 0.028*"new" + 0.025*"temple" + 0.012*"jungle" + 0.000*"poots" + 0.000*"artificially" + 0.000*"establishing" + 0.000*"vcr" + 0.000*"facepalm"
+
+Saving topics to 'lda_topics.txt'...
+Done.

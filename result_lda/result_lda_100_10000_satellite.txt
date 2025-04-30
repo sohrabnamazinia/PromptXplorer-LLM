@@ -1,0 +1,33 @@
+Loading CSV...
+Loaded 10000 rows.
+Extracting and cleaning satellite prompts...
+Extracted and cleaned 57615 satellite prompts.
+Creating dictionary and corpus...
+Dictionary size: 11713 unique tokens.
+Training LDA model...
+Saving model and dictionary...
+
+Discovered Topics:
+Topic 6: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 62: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 71: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 79: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 34: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 25: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 70: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 2: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 83: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 40: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 39: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 15: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 37: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 95: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 26: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 13: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 87: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 57: 0.000*"bourbon" + 0.000*"holdind" + 0.000*"headdress" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 43: 0.793*"background" + 0.000*"bourbon" + 0.000*"speakers" + 0.000*"ruff" + 0.000*"alcohol" + 0.000*"hornak" + 0.000*"algernon" + 0.000*"blackwood" + 0.000*"kurumada" + 0.000*"masami"
+Topic 77: 0.460*"art" + 0.153*"greg" + 0.143*"rutkowski" + 0.110*"artgerm" + 0.060*"mucha" + 0.059*"alphonse" + 0.000*"masami" + 0.000*"hornak" + 0.000*"alcohol" + 0.000*"holdind"
+
+Saving topics to 'lda_topics_satellite.txt'...
+Done.

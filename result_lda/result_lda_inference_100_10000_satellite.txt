@@ -1,0 +1,28 @@
+Loading model and dictionary...
+Loading CSV...
+Extracting and cleaning satellite prompts...
+
+Sample satellite prompt topic distributions:
+
+Satellite Prompt 0: intricate
+Topic distribution (topic_id, probability):
+  Topic 77: 0.9125
+
+Satellite Prompt 1: dystopian
+Topic distribution (topic_id, probability):
+  Topic 77: 0.9125
+
+Satellite Prompt 2: extremely detailed
+Topic distribution (topic_id, probability):
+  Topic 77: 0.9125
+
+Satellite Prompt 3: digital painting
+Topic distribution (topic_id, probability):
+  Topic 77: 0.9125
+
+Satellite Prompt 4: artstation
+Topic distribution (topic_id, probability):
+  Topic 77: 0.9125
+
+Calculating and saving CSV files...
+Done.
