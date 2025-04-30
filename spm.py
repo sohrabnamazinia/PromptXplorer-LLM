@@ -106,8 +106,8 @@ def random_walk(G, start=None, length=10):
     return path
 
 if __name__ == "__main__":
-    topic_count = 10
-    max_rows = 10000
+    topic_count = 30
+    max_rows = 30000
     df = pd.read_csv(f"result_lda/clusterized_data_{topic_count}_{max_rows}.csv")
 
 

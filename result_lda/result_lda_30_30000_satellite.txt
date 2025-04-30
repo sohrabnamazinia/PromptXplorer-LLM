@@ -1,0 +1,33 @@
+Loading CSV...
+Loaded 30000 rows.
+Extracting and cleaning satellite prompts...
+Extracted and cleaned 174129 satellite prompts.
+Creating dictionary and corpus...
+Dictionary size: 19463 unique tokens.
+Training LDA model...
+Saving model and dictionary...
+
+Discovered Topics:
+Topic 26: 0.000*"battleaxe" + 0.000*"costumed" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually" + 0.000*"martine" + 0.000*"forhead"
+Topic 23: 0.000*"battleaxe" + 0.000*"costumed" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually" + 0.000*"martine" + 0.000*"forhead"
+Topic 13: 0.000*"battleaxe" + 0.000*"costumed" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually" + 0.000*"martine" + 0.000*"forhead"
+Topic 4: 0.000*"battleaxe" + 0.000*"costumed" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually" + 0.000*"martine" + 0.000*"forhead"
+Topic 1: 0.000*"battleaxe" + 0.000*"costumed" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually" + 0.000*"martine" + 0.000*"forhead"
+Topic 15: 0.000*"battleaxe" + 0.000*"costumed" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually" + 0.000*"martine" + 0.000*"forhead"
+Topic 20: 0.000*"battleaxe" + 0.000*"costumed" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually" + 0.000*"martine" + 0.000*"forhead"
+Topic 25: 0.000*"battleaxe" + 0.000*"costumed" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually" + 0.000*"martine" + 0.000*"forhead"
+Topic 27: 0.000*"battleaxe" + 0.000*"costumed" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually" + 0.000*"martine" + 0.000*"forhead"
+Topic 14: 0.000*"battleaxe" + 0.000*"costumed" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually" + 0.000*"martine" + 0.000*"forhead"
+Topic 29: 0.563*"light" + 0.235*"red" + 0.000*"soft" + 0.000*"caravaggio" + 0.000*"rim" + 0.000*"ruan" + 0.000*"beautiful" + 0.000*"jia" + 0.000*"kolesov" + 0.000*"z"
+Topic 5: 0.625*"fantasy" + 0.171*"wearing" + 0.000*"complex" + 0.000*"white" + 0.000*"tank" + 0.000*"dark" + 0.000*"black" + 0.000*"victorian" + 0.000*"top" + 0.000*"armors"
+Topic 8: 0.486*"sharp" + 0.417*"focus" + 0.000*"battleaxe" + 0.000*"johanna" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually"
+Topic 17: 0.575*"intricate" + 0.170*"epic" + 0.150*"composition" + 0.000*"details" + 0.000*"environment" + 0.000*"beautiful" + 0.000*"detail" + 0.000*"artwork" + 0.000*"willam" + 0.000*"cinematogrophy"
+Topic 6: 0.883*"artstation" + 0.030*"featured" + 0.000*"trending" + 0.000*"hd" + 0.000*"patagonia" + 0.000*"willam" + 0.000*"etty" + 0.000*"cinematogrophy" + 0.000*"pharoah" + 0.000*"actually"
+Topic 2: 0.442*"painting" + 0.411*"digital" + 0.067*"color" + 0.005*"palette" + 0.002*"kon" + 0.001*"satoshi" + 0.000*"oil" + 0.000*"matte" + 0.000*"illustration" + 0.000*"willam"
+Topic 9: 0.236*"greg" + 0.224*"rutkowski" + 0.168*"artgerm" + 0.102*"mucha" + 0.097*"alphonse" + 0.073*"quality" + 0.023*"insanely" + 0.014*"simon" + 0.012*"stalenhag" + 0.000*"wlop"
+Topic 7: 0.761*"detailed" + 0.106*"ultra" + 0.031*"fine" + 0.029*"neon" + 0.017*"renaissance" + 0.000*"highly" + 0.000*"realistic" + 0.000*"extremely" + 0.000*"hyper" + 0.000*"face"
+Topic 28: 0.592*"art" + 0.189*"concept" + 0.145*"style" + 0.034*"beksinski" + 0.000*"character" + 0.000*"wlop" + 0.000*"trending" + 0.000*"realistic" + 0.000*"etty" + 0.000*"actually"
+Topic 21: 0.317*"lighting" + 0.224*"cinematic" + 0.181*"render" + 0.145*"high" + 0.031*"resolution" + 0.025*"poster" + 0.015*"futuristic" + 0.013*"scifi" + 0.009*"retro" + 0.002*"product"
+
+Saving topics to 'lda_topics_satellite.txt'...
+Done.

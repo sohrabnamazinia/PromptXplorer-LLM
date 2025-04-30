@@ -1,0 +1,83 @@
+Loading model and dictionary...
+Loading CSV...
+Extracting and cleaning satellite prompts...
+
+Sample satellite prompt topic distributions:
+
+Satellite Prompt 0: intricate
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0137
+  Topic 2: 0.0538
+  Topic 5: 0.0216
+  Topic 6: 0.0492
+  Topic 7: 0.0769
+  Topic 8: 0.0286
+  Topic 9: 0.0541
+  Topic 10: 0.0107
+  Topic 17: 0.4086
+  Topic 21: 0.1038
+  Topic 28: 0.0986
+  Topic 29: 0.0206
+
+Satellite Prompt 1: dystopian
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0216
+  Topic 2: 0.0852
+  Topic 5: 0.0342
+  Topic 6: 0.0780
+  Topic 7: 0.1217
+  Topic 8: 0.0453
+  Topic 9: 0.0856
+  Topic 10: 0.0169
+  Topic 16: 0.0133
+  Topic 17: 0.0635
+  Topic 18: 0.0141
+  Topic 21: 0.1644
+  Topic 28: 0.1561
+  Topic 29: 0.0327
+
+Satellite Prompt 2: extremely detailed
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0137
+  Topic 2: 0.0538
+  Topic 5: 0.0216
+  Topic 6: 0.0492
+  Topic 7: 0.4453
+  Topic 8: 0.0286
+  Topic 9: 0.0541
+  Topic 10: 0.0107
+  Topic 17: 0.0401
+  Topic 21: 0.1038
+  Topic 28: 0.0986
+  Topic 29: 0.0206
+
+Satellite Prompt 3: digital painting
+Topic distribution (topic_id, probability):
+  Topic 2: 0.5779
+  Topic 5: 0.0158
+  Topic 6: 0.0360
+  Topic 7: 0.0562
+  Topic 8: 0.0209
+  Topic 9: 0.0395
+  Topic 17: 0.0293
+  Topic 21: 0.0759
+  Topic 28: 0.0720
+  Topic 29: 0.0151
+
+Satellite Prompt 4: artstation
+Topic distribution (topic_id, probability):
+  Topic 0: 0.0137
+  Topic 2: 0.0538
+  Topic 5: 0.0216
+  Topic 6: 0.4177
+  Topic 7: 0.0769
+  Topic 8: 0.0286
+  Topic 9: 0.0541
+  Topic 10: 0.0107
+  Topic 17: 0.0401
+  Topic 21: 0.1038
+  Topic 28: 0.0986
+  Topic 29: 0.0206
+
+Calculating and saving CSV files...
+Done.

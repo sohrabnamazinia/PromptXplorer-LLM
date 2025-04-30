@@ -1,0 +1,33 @@
+Loading CSV...
+Loaded 30000 rows.
+Tokenizing and cleaning prompts...
+Tokenized and cleaned 30000 prompts.
+Creating dictionary and corpus...
+Dictionary size: 20212 unique tokens.
+Training LDA model...
+Saving model and dictionary...
+
+Discovered Topics:
+Topic 1: 0.000*"comical" + 0.000*"normandy" + 0.000*"sgraffito" + 0.000*"grimdark" + 0.000*"lupine" + 0.000*"thrush" + 0.000*"austral" + 0.000*"scorpio" + 0.000*"storming" + 0.000*"imagine"
+Topic 18: 0.000*"comical" + 0.000*"normandy" + 0.000*"sgraffito" + 0.000*"grimdark" + 0.000*"lupine" + 0.000*"thrush" + 0.000*"austral" + 0.000*"scorpio" + 0.000*"storming" + 0.000*"imagine"
+Topic 0: 0.033*"path" + 0.000*"comical" + 0.000*"normandy" + 0.000*"sgraffito" + 0.000*"grimdark" + 0.000*"lupine" + 0.000*"thrush" + 0.000*"austral" + 0.000*"scorpio" + 0.000*"storming"
+Topic 26: 0.116*"bear" + 0.050*"alone" + 0.009*"best" + 0.000*"comical" + 0.000*"imagine" + 0.000*"lupine" + 0.000*"thrush" + 0.000*"austral" + 0.000*"scorpio" + 0.000*"sgraffito"
+Topic 19: 0.203*"princess" + 0.017*"indian" + 0.000*"imagine" + 0.000*"vice" + 0.000*"grimdark" + 0.000*"lupine" + 0.000*"thrush" + 0.000*"austral" + 0.000*"scorpio" + 0.000*"comical"
+Topic 17: 0.151*"computer" + 0.107*"mountain" + 0.017*"canyon" + 0.003*"lava" + 0.000*"thrush" + 0.000*"austral" + 0.000*"comical" + 0.000*"vice" + 0.000*"lupine" + 0.000*"grimdark"
+Topic 28: 0.201*"skull" + 0.103*"riding" + 0.057*"dream" + 0.049*"chris" + 0.032*"headphones" + 0.023*"cyber" + 0.000*"carolyn" + 0.000*"storming" + 0.000*"sgraffito" + 0.000*"grimdark"
+Topic 25: 0.216*"world" + 0.118*"artwork" + 0.053*"apocalyptic" + 0.048*"post" + 0.044*"mullins" + 0.044*"craig" + 0.002*"dust" + 0.000*"austral" + 0.000*"thrush" + 0.000*"scorpio"
+Topic 13: 0.452*"city" + 0.042*"mark" + 0.022*"alex" + 0.000*"gods" + 0.000*"austral" + 0.000*"stoneware" + 0.000*"sgraffito" + 0.000*"grimdark" + 0.000*"lupine" + 0.000*"thrush"
+Topic 4: 0.209*"intricate" + 0.150*"artstation" + 0.082*"trending" + 0.046*"half" + 0.039*"center" + 0.034*"isometric" + 0.031*"details" + 0.016*"frame" + 0.011*"propaganda" + 0.006*"rendering"
+Topic 8: 0.166*"cyberpunk" + 0.100*"greg" + 0.078*"rutkowski" + 0.077*"green" + 0.063*"dress" + 0.056*"john" + 0.050*"spaceship" + 0.039*"people" + 0.037*"ocean" + 0.035*"eating"
+Topic 20: 0.232*"white" + 0.071*"goddess" + 0.070*"medieval" + 0.054*"two" + 0.047*"huge" + 0.041*"knight" + 0.036*"attractive" + 0.036*"haired" + 0.027*"wings" + 0.027*"glasses"
+Topic 7: 0.249*"girl" + 0.166*"anime" + 0.115*"cat" + 0.088*"old" + 0.051*"blonde" + 0.042*"smiling" + 0.026*"mixed" + 0.021*"planet" + 0.021*"media" + 0.017*"running"
+Topic 5: 0.192*"face" + 0.182*"black" + 0.159*"hair" + 0.115*"long" + 0.057*"dressed" + 0.041*"extremely" + 0.033*"peter" + 0.019*"batman" + 0.013*"ultradetailed" + 0.007*"wavy"
+Topic 23: 0.366*"detailed" + 0.142*"fantasy" + 0.134*"highly" + 0.043*"fi" + 0.042*"sci" + 0.034*"drawing" + 0.026*"paint" + 0.026*"vintage" + 0.013*"lord" + 0.012*"goblin"
+Topic 2: 0.594*"beautiful" + 0.087*"epic" + 0.037*"neon" + 0.032*"around" + 0.017*"colors" + 0.016*"cake" + 0.012*"child" + 0.008*"structure" + 0.004*"wedding" + 0.002*"frozen"
+Topic 29: 0.295*"wearing" + 0.210*"realistic" + 0.077*"playing" + 0.073*"ultra" + 0.043*"golden" + 0.036*"horror" + 0.026*"evil" + 0.022*"deep" + 0.016*"jacket" + 0.012*"clown"
+Topic 9: 0.383*"photo" + 0.152*"young" + 0.149*"made" + 0.061*"room" + 0.061*"standing" + 0.011*"grand" + 0.006*"piano" + 0.005*"distant" + 0.000*"still" + 0.000*"dark"
+Topic 6: 0.411*"painting" + 0.091*"digital" + 0.087*"illustration" + 0.075*"oil" + 0.060*"closeup" + 0.055*"render" + 0.044*"hyper" + 0.031*"tree" + 0.017*"mm" + 0.008*"jungle"
+Topic 12: 0.736*"portrait" + 0.098*"female" + 0.059*"cyborg" + 0.000*"hooded" + 0.000*"holding" + 0.000*"full" + 0.000*"shot" + 0.000*"close" + 0.000*"still" + 0.000*"futuristic"
+
+Saving topics to 'lda_topics.txt'...
+Done.
