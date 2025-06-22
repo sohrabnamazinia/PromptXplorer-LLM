@@ -1,0 +1,29 @@
+User query: generate an image of a dolphin jumping out of the water
+
+Round 1:
+Selected Prompt: in crystal clear turquoise water
+Generated Prompt: with seagulls flying overhead
+Evaluation: Selector: 90% ; Generator: 95%
+
+Round 2:
+Selected Prompt: with a vibrant sunset sky
+Generated Prompt: with a vibrant sunset sky in the background
+Evaluation: Selector: 100% ; Generator: 100%
+
+Round 3:
+Selected Prompt: with a sea turtle swimming below
+Generated Prompt: with the sun setting on the horizon and splashes of water around the dolphin
+Evaluation: Selector: 85% ; Generator: 95%
+
+Round 4:
+Selected Prompt: accompanied by a pod of dolphins
+Generated Prompt: with a vibrant sunset sky and waves crashing around the dolphin
+Evaluation: Selector: 90% ; Generator: 95%
+
+Round 5:
+Selected Prompt: with dolphins forming a heart shape
+Generated Prompt: with a sunset sky and distant mountains in the background
+Evaluation: Selector: 80% ; Generator: 95%
+
+Average Selector Score: 89.00%
+Average Generator Score: 96.00%

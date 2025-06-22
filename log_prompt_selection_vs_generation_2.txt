@@ -1,0 +1,29 @@
+User query: generate an image of a human
+
+Round 1:
+Selected Prompt: hiking through a dense jungle
+Generated Prompt: hiking through a dense forest with a backpack
+Evaluation: Selector: 90% ; Generator: 95%
+
+Round 2:
+Selected Prompt: taking a selfie in front of a landmark
+Generated Prompt: painting a mural on a city wall
+Evaluation: Selector: 90% ; Generator: 40%
+
+Round 3:
+Selected Prompt: sitting by a campfire at night
+Generated Prompt: smiling doctor examining a patient in a hospital room
+Evaluation: Selector: 80% ; Generator: 60%
+
+Round 4:
+Selected Prompt: dressed in futuristic armor
+Generated Prompt: walking through a bustling city street
+Evaluation: Selector: 80% ; Generator: 60%
+
+Round 5:
+Selected Prompt: wearing a firefighter uniform
+Generated Prompt: walking a dog in the city
+Evaluation: Selector: 90% ; Generator: 60%
+
+Average Selector Score: 86.00%
+Average Generator Score: 63.00%
