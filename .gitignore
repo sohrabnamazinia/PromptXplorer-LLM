@@ -1,4 +1,4 @@
 data/
 data_preprocessing/
 lda
-data_chatgpt_paraphraizes/*
+data_chatgpt_paraphrases/*

@@ -30,10 +30,10 @@ def convert_to_prompts(dataset_name, input_dir=None, output_dir=None):
     """
     # Set default paths
     if input_dir is None:
-        input_dir = "../data_chatgpt_paraphraizes"
+        input_dir = "../data_chatgpt_paraphrases"
     
     if output_dir is None:
-        output_dir = "../data_chatgpt_paraphraizes"
+        output_dir = "../data_chatgpt_paraphrases"
     
     # Convert to absolute paths
     script_dir = Path(__file__).parent

@@ -50,10 +50,10 @@ def create_dataset(n=10, input_file=None, output_file=None):
     """
     # Set default paths
     if input_file is None:
-        input_file = "../data_chatgpt_paraphraizes/chatgpt_paraphrases.csv"
+        input_file = "../data_chatgpt_paraphrases/chatgpt_paraphrases.csv"
     
     if output_file is None:
-        output_file = f"../data_chatgpt_paraphraizes/dataset_{n}.csv"
+        output_file = f"../data_chatgpt_paraphrases/dataset_{n}.csv"
     
     # Convert to absolute paths
     script_dir = Path(__file__).parent
